@@ -1,0 +1,8 @@
+db:
+ type: postgresql
+ url:jdbc: postgresql://localhost:5432/uniteddbtest
+ generateDDL: true
+ username: unitedft
+ password: unitedft
+ validationQuery:
+   sql:validationQuery
